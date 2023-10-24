@@ -10,14 +10,28 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
 
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- protons -->
+    <link rel="stylesheet" href="./styles/protons/texts.css">
+    <link rel="stylesheet" href="./styles/protons/colors.css">
+    <!-- atoms -->
+    <link rel="stylesheet" href="./styles/atoms/icon-card-services.css">
+    <link rel="stylesheet" href="./styles/atoms/btn-card-services.css">
+    <!-- molecules -->
+    <link rel="stylesheet" href="./styles/molecules/card-services.css">
+    <!-- organisms -->
+    <link rel="stylesheet" href="./styles/organisms/group-services.css">
+
     <title>Devchallenges</title>
 
   </head>
   <body>
-
+<!--
     <header>
       <nav>
-        <span></span>
+        <span class="color-gray edie txt txt-xxl">Edie</span>
         <ul>
           <li>Home</li>
           <li>Services</li>
@@ -28,56 +42,96 @@
       </nav>
 
       <div class="home">
-        <span>Unhappy with your website?</span>
-        <h1>We create beautiful and fast web services</h1>
+        <span class="color-blue txt txt-s">Unhappy with your website?</span>
+        <h1 class="color-gray txt txt-xxl">We create beautiful and fast web services</h1>
         <img src="" alt="">
-        <h1>Story, emotion and purpose</h1>
-        <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+        <h2 class="color-gray txt txt-xxl">Story, emotion and purpose</h2>
+        <p class="txt txt-s">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
 
+        <form action="">
+          <label for="" class="txt-xs">Want us to contact you?</label>
+          <input type="text">
+          <input type="button">
+        </form>
       </div>
 
     </header>
-
+-->
     <main>
 
       <div class="services">
-        <h3>We offer high demand services</h3>
+        <h3 class="color-gray txt txt-xxl txt-semibold txt-height-l">We offer high <br>demand services</h3>
         <div class="group-services">
           <div class="card-services">
-            <img src="" alt="">
-            <h4>UI/UX Design</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-            <button>Get started</button>
+            <div class="icon-card-services background-blue">
+              <img src="./assets/pencil-fill.svg" alt="">
+            </div>
+            <h4 class="color-gray txt txt-xxl txt-bold">UI/UX Design</h4>
+            <p class="color-gray2 txt txt-l txt-height-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button class="background-gray5 btn-card-services color-gray3 txt txt-l txt-semibold">Get started</button>
           </div>
           <div class="card-services">
-            <img src="" alt="">
-            <h4>Front End</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-            <button>Get started</button>
+            <div class="icon-card-services background-green">
+              <img src="./assets/code.svg" alt="">
+            </div>
+            <h4 class="color-gray txt txt-xxl txt-bold">Front End</h4>
+            <p class="color-gray2 txt txt-l txt-height-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button class="background-gray5 btn-card-services color-gray3 txt txt-l txt-semibold">Get started</button>
           </div>
           <div class="card-services">
-            <img src="" alt="">
-            <h4>Back End</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-            <button>Get started</button>
+            <div class="icon-card-services background-red">
+              <img src="./assets/hdd-stack-fill.svg" alt="">
+            </div>
+            <h4 class="color-gray txt txt-xxl txt-bold">Back End</h4>
+            <p class="color-gray2 txt txt-l txt-height-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button class="background-gray5 btn-card-services color-gray3 txt txt-l txt-semibold">Get started</button>
           </div>
         </div>
 
       </div>
-
+<!--
       <div class="our-works">
-        <h3>Good design means good business</h3>
-        div
+        <h3 class="color-gray txt txt-xxl">Good design means <br>good business</h3>
+        <div class="group-our-wroks">
+          <div class="card-our-works">
+            <img src="./assets/smarthome.jpg" alt="">
+            <span class="color-gray3 txt txt-s">Full stack application</span>
+            <h4 class="color-gray txt-xl">Smart home dashboard</h4>
+          </div>
+          <div class="card-our-works">
+            <img src="./assets/onboard.png" alt="">
+            <span class="color-gray3 txt txt-s">UX/UI design</span>
+            <h4 class="color-gray txt-xl">Onboard application</h4>
+          </div>
+          <div class="card-our-works">
+            <img src="./assets/booking.png" alt="">
+            <span class="color-gray3 txt txt-s">Mobile application</span>
+            <h4 class="color-gray txt-xl">Booking system</h4>
+          </div>
+          <div class="card-our-works">
+            <img src="./assets/juice-product.png" alt="">
+            <span class="color-gray3 txt txt-s">Front End applicati on</span>
+            <h4 class="color-gray txt-xl">Juice product homepage</h4>
+          </div>
+        </div>
+        <span class="color-blue txt txt-xl">see more <img src="" alt=""></span>
       </div>
 
       <div class="clients">
-
+        <span class="color-red txt txt-xl">Meet the team</span>
+        <h3 class="color-gray txt txt-xxxl">We are chilled and a laidback team</h3>
+        <p class="txt txt-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
-      <div class="contact">
-
+      <div class="testimony">
+        <p class="color-gray txt txt-xxl">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
+        <div class="client">
+          <img src="" alt="">
+          <span class="color-gray txt txt-xxl">Carlos Tran</span>
+          <span class="txt txt-xl">The Decorate Gatsby</span>
+        </div>
       </div>
-
+-->
     </main>
 
     <footer>

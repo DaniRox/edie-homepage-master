@@ -1,0 +1,69 @@
+:root{
+    --white: #ffffff;
+    --dark: #100E1D;
+    --gray: #333333;
+    --gray2: #4F4F4F;
+    --gray3: #828282;
+    --gray4: #BDBDBD;
+    --gray5: #E0E0E0;
+    --blue: #2D9CDB;
+    --red: #EB5757;
+    --green: #27AE60;
+}
+
+
+.color-white{
+    color: var(--white);
+}
+
+.color-blue{
+    color: var(--blue);
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.color-gray{
+    color: var(--gray);
+}
+
+.color-gray2{
+    color: var(--gray2);
+}
+
+.color-gray3{
+    color: var(--gray3);
+}
+
+.color-gray2{
+    color: var(--gray2);
+}
+
+.color-gray4{
+    color: var(--gray4);
+}
+
+.background-dark{
+    background-color: var(--dark);
+}
+
+.background-white{
+    background-color: var(--white);
+}
+
+.background-gray5{
+    background-color: var(--gray5);
+}
+
+.background-blue{
+    background-color: var(--blue);
+}
+
+.background-green{
+    background-color: var(--green);
+}
+
+.background-red{
+    background-color: var(--red);
+}

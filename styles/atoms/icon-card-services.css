@@ -1,0 +1,8 @@
+.icon-card-services{
+    width: 3rem;
+    height: 3rem;
+    padding: 1.3rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
