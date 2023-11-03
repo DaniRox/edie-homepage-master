@@ -1,0 +1,18 @@
+.input-button{
+    width: 6rem;
+    height: 3.2rem;
+    border: none;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-button[value]{
+    color: var(--gray6);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+}

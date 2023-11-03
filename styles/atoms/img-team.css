@@ -1,0 +1,16 @@
+.img1-team{
+    width: 90%;
+    border-radius: 2rem;
+}
+
+.img2-team{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.img3-team{
+    width: 100%;
+    grid-row-start: span 2;
+    margin: 50% 0;
+    border-radius: 2rem;
+}
