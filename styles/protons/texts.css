@@ -77,6 +77,10 @@
     margin: 1rem 0;
 }
 
+.txt-link{
+    text-decoration: none;
+}
+
 
 @media only screen and (min-width: 770px){
     .title{

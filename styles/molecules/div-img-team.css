@@ -10,6 +10,7 @@
 @media only screen and (min-width: 770px){
     .div-img-team{
         width: 50%;
+        grid-gap: 1.2rem;
     }
 }
 

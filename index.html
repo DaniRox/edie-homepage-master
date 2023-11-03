@@ -44,9 +44,12 @@
     <link rel="stylesheet" href="./styles/organisms/group-our-works.css">
     <link rel="stylesheet" href="./styles/organisms/div-team.css">
     <link rel="stylesheet" href="./styles/organisms/div-testimony.css">
+    <link rel="stylesheet" href="./styles/organisms/footer.css">
+    <link rel="stylesheet" href="./styles/organisms/form-footer.css">
     <!-- templates -->
     <link rel="stylesheet" href="./styles/templates/header.css">
     
+    <link rel="icon" href="./assets/devchallenges.png">
 
     <title>Devchallenges</title>
 
@@ -58,15 +61,15 @@
       <nav>
         <span class="color-gray edie txt txt-xxl">Edie</span>
         <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Our Works</li>
-          <li>Clients</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#our-works">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 -->
-      <div class="div-home">
+      <div class="div-home" id="home">
         <span class="color-blue txt txt-s txt-semibold txt-height-s">Unhappy with your website?</span>
         <h1 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">We create beautiful<br>and fast web services</h1>
         <img src="./assets/heroImage.jpg" alt="teamwork at the office" class="img-home">
@@ -87,7 +90,7 @@
 
     <main>
 
-      <div class="div-services">
+      <div class="div-services" id="services">
         <h3 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">We offer high <br>demand services</h3>
         <div class="group-services">
           <div class="card-services">
@@ -119,7 +122,7 @@
       </div>
 
 
-      <div class="div-our-works">
+      <div class="div-our-works" id="our-works">
         <h3 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">Good design means <br>good business</h3>
         <div class="group-our-works">
           <div class="card-our-works card-our-works1">
@@ -158,13 +161,13 @@
 
 
         <div class="div-img-team">
-          <img src="./assets/person3.png" alt="photo team" class="img3-team">
-          <img src="./assets/person1.png" alt="photo team" class="img1-team">
-          <img src="./assets/person2.png" alt="photo team" class="img2-team">
+          <img src="./assets/person3.png" alt="photo team" class="img-team img3-team">
+          <img src="./assets/person1.png" alt="photo team" class="img-team img1-team">
+          <img src="./assets/person2.png" alt="photo team" class="img-team img2-team">
         </div>
       </div>
 
-      <div class="div-testimony">
+      <div class="div-testimony" id="clients">
         <p class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
         <div class="div-client">
           <img src="./assets/person4.png" alt="photo testimony" class="img-testimony">
@@ -177,10 +180,34 @@
       </div>
 
     </main>
+<!--
+    <footer class="background-dark">
+      <ul class="menu-form">
+        <li><a href="#home" class="txt txt-xl txt-normal color-gray6 txt-link">Home</a></li>
+        <li><a href="#services" class="txt txt-xl txt-normal color-gray6 txt-link">Services</a></li>
+        <li><a href="#our-works" class="txt txt-xl txt-normal color-gray6 txt-link">Our Works</a></li>
+        <li><a href="#clients" class="txt txt-xl txt-normal color-gray6 txt-link">Clients</a></li>
+        <li><a href="#contact" class="txt txt-xl txt-normal color-gray6 txt-link">Contact</a></li>
+      </ul>
 
-    <footer>
+      <span class="color-gray6 edie txt txt-xxl">Edie</span>
+
+      <div class="icons-redes">
+        <img src="./assets/instagram.svg" alt="icon instagram">
+        <img src="./assets/linkedin.svg" alt="icon linkedin">
+        <img src="./assets/twitter.svg" alt="icon twiter">
+      </div>
+
+      <form action="" class="form-footer">
+        <label for="" class="txt-home txt txt-xs txt-normal txt-height-s txt-margin color-gray3">Want us to contact you?</label>
+        <div class="div-inputs">
+          <input type="text" placeholder="Email" class="input-text">
+          <input type="button" class="input-button" value="Join">
+        </div>
+
+      </form>
 
     </footer>
-
+-->
   </body>
 </html>

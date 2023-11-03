@@ -14,3 +14,11 @@
     margin: 50% 0;
     border-radius: 2rem;
 }
+
+.img-team{
+    transition: all 0.3s;
+}
+
+.img-team:hover{
+    transform: scale(1.05, 1.05);
+}

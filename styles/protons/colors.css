@@ -41,6 +41,10 @@
     color: var(--gray4);
 }
 
+.color-gray6{
+    color: var(--gray6);
+}
+
 .background-dark{
     background-color: var(--dark);
 }
