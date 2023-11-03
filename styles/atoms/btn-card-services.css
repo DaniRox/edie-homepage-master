@@ -2,10 +2,15 @@
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 1rem;
-
+    transition: all 0.3s;
 }
 
 .btn-card-services:hover{
     color: var(--white);
     background-color: var(--blue);
+    transform: scale(1.1, 1.1);
+}
+
+.btn-card-services:active{
+    transform: scale(1, 1);
 }

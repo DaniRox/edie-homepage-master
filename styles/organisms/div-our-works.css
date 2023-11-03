@@ -1,0 +1,12 @@
+.div-our-works{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 770px){
+    .div-our-works{
+        margin: 9rem 12%;
+    }
+}

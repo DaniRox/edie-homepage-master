@@ -1,6 +1,7 @@
 .input-text{
     border: none;
     background-color: transparent;
+    outline: none;
 }
 
 .input-text::placeholder{

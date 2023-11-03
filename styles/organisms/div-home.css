@@ -1,0 +1,21 @@
+.div-home{
+    padding: 4rem 4rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 470px){
+    .div-home{
+        width: 100vw;
+        padding: 4rem 12%;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .div-home{
+        width: 100vw;
+        padding: 4rem 18%;
+    }
+}

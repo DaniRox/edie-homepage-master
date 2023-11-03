@@ -9,7 +9,7 @@
 }
 
 .txt-xs{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .txt-s{
@@ -53,10 +53,43 @@
     font-weight: 800;
 }
 
+.txt-height-s{
+    line-height: 1.5rem;
+}
+
 .txt-height-m{
     line-height: 2rem;
 }
 
 .txt-height-l{
     line-height: 3rem;
+}
+
+.txt-height-xl{
+    line-height: 4.3rem;
+}
+
+.txt-margin-s{
+    margin: 0.7rem 0;
+}
+
+.txt-margin{
+    margin: 1rem 0;
+}
+
+
+@media only screen and (min-width: 770px){
+    .title{
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+
+    .txt-home{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .subtitle-section{
+        font-size: 2.5rem;
+    }
 }

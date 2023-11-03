@@ -19,17 +19,42 @@
     <!-- atoms -->
     <link rel="stylesheet" href="./styles/atoms/icon-card-services.css">
     <link rel="stylesheet" href="./styles/atoms/btn-card-services.css">
+    <link rel="stylesheet" href="./styles/atoms/img-home.css">
+    <link rel="stylesheet" href="./styles/atoms/input-text.css">
+    <link rel="stylesheet" href="./styles/atoms/input-button.css">
+    <link rel="stylesheet" href="./styles/atoms/img-card-our-works.css">
+    <link rel="stylesheet" href="./styles/atoms/span-our-works.css">
+    <link rel="stylesheet" href="./styles/atoms/icon-arrow.css">
+    <link rel="stylesheet" href="./styles/atoms/img-team.css">
+    <link rel="stylesheet" href="./styles/atoms/img-testimony.css">
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-services.css">
+    <link rel="stylesheet" href="./styles/molecules/div-inputs.css">
+    <link rel="stylesheet" href="./styles/molecules/card-our-works.css">
+    <link rel="stylesheet" href="./styles/molecules/div-img-team.css">
+    <link rel="stylesheet" href="./styles/molecules/div-text-team.css">
+    <link rel="stylesheet" href="./styles/molecules/div-client.css">
+    <link rel="stylesheet" href="./styles/molecules/div-text-client.css">
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/group-services.css">
+    <link rel="stylesheet" href="./styles/organisms/div-home.css">
+    <link rel="stylesheet" href="./styles/organisms/div-services.css">
+    <link rel="stylesheet" href="./styles/organisms/form.css">
+    <link rel="stylesheet" href="./styles/organisms/div-our-works.css">
+    <link rel="stylesheet" href="./styles/organisms/group-our-works.css">
+    <link rel="stylesheet" href="./styles/organisms/div-team.css">
+    <link rel="stylesheet" href="./styles/organisms/div-testimony.css">
+    <!-- templates -->
+    <link rel="stylesheet" href="./styles/templates/header.css">
+    
 
     <title>Devchallenges</title>
 
   </head>
   <body>
-<!--
+
     <header>
+      <!--
       <nav>
         <span class="color-gray edie txt txt-xxl">Edie</span>
         <ul>
@@ -40,27 +65,30 @@
           <li>Contact</li>
         </ul>
       </nav>
-
-      <div class="home">
-        <span class="color-blue txt txt-s">Unhappy with your website?</span>
-        <h1 class="color-gray txt txt-xxl">We create beautiful and fast web services</h1>
-        <img src="" alt="">
-        <h2 class="color-gray txt txt-xxl">Story, emotion and purpose</h2>
-        <p class="txt txt-s">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+-->
+      <div class="div-home">
+        <span class="color-blue txt txt-s txt-semibold txt-height-s">Unhappy with your website?</span>
+        <h1 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">We create beautiful<br>and fast web services</h1>
+        <img src="./assets/heroImage.jpg" alt="teamwork at the office" class="img-home">
+        <h2 class="title color-gray txt txt-xxl txt-semibold txt-height-l txt-margin-s color-gray">Story, emotion<br>and purpose</h2>
+        <p class="txt-home txt txt-s txt-normal txt-height-s txt-margin color-gray2">We help transform your ideas into real<br>world applications that will outperform<br>your toughest competition and help you<br>achieve your strategic goals in short<br>period of time.</p>
 
         <form action="">
-          <label for="" class="txt-xs">Want us to contact you?</label>
-          <input type="text">
-          <input type="button">
+          <label for="" class="txt-home txt txt-xs txt-normal txt-height-s txt-margin color-gray3">Want us to contact you?</label>
+          <div class="div-inputs">
+            <input type="text" placeholder="Email" class="input-text">
+            <input type="button" class="input-button" value="Join">
+          </div>
+
         </form>
       </div>
 
     </header>
--->
+
     <main>
 
-      <div class="services">
-        <h3 class="color-gray txt txt-xxl txt-semibold txt-height-l">We offer high <br>demand services</h3>
+      <div class="div-services">
+        <h3 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">We offer high <br>demand services</h3>
         <div class="group-services">
           <div class="card-services">
             <div class="icon-card-services background-blue">
@@ -89,49 +117,65 @@
         </div>
 
       </div>
-<!--
-      <div class="our-works">
-        <h3 class="color-gray txt txt-xxl">Good design means <br>good business</h3>
-        <div class="group-our-wroks">
-          <div class="card-our-works">
-            <img src="./assets/smarthome.jpg" alt="">
-            <span class="color-gray3 txt txt-s">Full stack application</span>
-            <h4 class="color-gray txt-xl">Smart home dashboard</h4>
+
+
+      <div class="div-our-works">
+        <h3 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">Good design means <br>good business</h3>
+        <div class="group-our-works">
+          <div class="card-our-works card-our-works1">
+            <img src="./assets/smarthome.jpg" alt="" class="img-card-our-works">
+            <span class="color-gray3 txt txt-s txt-normal">Full stack application</span>
+            <h4 class="color-gray txt txt-xl txt-semibold">Smart home dashboard</h4>
           </div>
-          <div class="card-our-works">
-            <img src="./assets/onboard.png" alt="">
-            <span class="color-gray3 txt txt-s">UX/UI design</span>
-            <h4 class="color-gray txt-xl">Onboard application</h4>
+          <div class="card-our-works card-our-works2">
+            <img src="./assets/onboard.png" alt="" class="img-card-our-works">
+            <span class="color-gray3 txt txt-s txt-normal">UX/UI design</span>
+            <h4 class="color-gray txt txt-xl txt-semibold">Onboard application</h4>
           </div>
-          <div class="card-our-works">
-            <img src="./assets/booking.png" alt="">
-            <span class="color-gray3 txt txt-s">Mobile application</span>
-            <h4 class="color-gray txt-xl">Booking system</h4>
+          <div class="card-our-works card-our-works3">
+            <img src="./assets/booking.png" alt="" class="img-card-our-works">
+            <span class="color-gray3 txt txt-s txt-normal">Mobile application</span>
+            <h4 class="color-gray txt txt-xl txt-semibold">Booking system</h4>
           </div>
-          <div class="card-our-works">
-            <img src="./assets/juice-product.png" alt="">
-            <span class="color-gray3 txt txt-s">Front End applicati on</span>
-            <h4 class="color-gray txt-xl">Juice product homepage</h4>
+          <div class="card-our-works card-our-works4">
+            <img src="./assets/juice-product.png" alt="" class="img-card-our-works">
+            <span class="color-gray3 txt txt-s txt-normal">Front End applicati on</span>
+            <h4 class="color-gray txt txt-xl txt-semibold">Juice product homepage</h4>
           </div>
+
+
         </div>
-        <span class="color-blue txt txt-xl">see more <img src="" alt=""></span>
+        <span class="span-our-works color-blue txt txt-xl txt-semibold">see more <img src="./assets/arrow-right.svg" alt="arrow right" class="icon-arrow"></span>
+
       </div>
 
-      <div class="clients">
-        <span class="color-red txt txt-xl">Meet the team</span>
-        <h3 class="color-gray txt txt-xxxl">We are chilled and a laidback team</h3>
-        <p class="txt txt-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+      <div class="div-team">
+        <div class="div-text-team">
+          <span class="color-red color-blue txt txt-xl txt-semibold">Meet the team</span>
+          <h3 class="color-gray txt txt-xxxl txt-semibold txt-height-xl txt-margin">We are chilled<br>and a laidback<br>team</h3>
+          <p class="color-gray2 txt txt-l txt-height-m">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+        </div>
 
-      <div class="testimony">
-        <p class="color-gray txt txt-xxl">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
-        <div class="client">
-          <img src="" alt="">
-          <span class="color-gray txt txt-xxl">Carlos Tran</span>
-          <span class="txt txt-xl">The Decorate Gatsby</span>
+
+        <div class="div-img-team">
+          <img src="./assets/person3.png" alt="photo team" class="img3-team">
+          <img src="./assets/person1.png" alt="photo team" class="img1-team">
+          <img src="./assets/person2.png" alt="photo team" class="img2-team">
         </div>
       </div>
--->
+
+      <div class="div-testimony">
+        <p class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
+        <div class="div-client">
+          <img src="./assets/person4.png" alt="photo testimony" class="img-testimony">
+          <div class="div-text-client">
+            <span class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">Carlos Tran</span>
+            <span class="color-gray3 txt txt-xl txt-semibold">The Decorate Gatsby</span>
+          </div>
+          
+        </div>
+      </div>
+
     </main>
 
     <footer>
