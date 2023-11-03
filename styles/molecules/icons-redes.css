@@ -1,0 +1,6 @@
+.icons-redes{
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
