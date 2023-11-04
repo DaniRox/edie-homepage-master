@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="./styles/atoms/img-team.css">
     <link rel="stylesheet" href="./styles/atoms/img-testimony.css">
     <link rel="stylesheet" href="./styles/atoms/span-footer.css">
+    <link rel="stylesheet" href="./styles/atoms/menu-nav.css">
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-services.css">
     <link rel="stylesheet" href="./styles/molecules/div-inputs.css">
@@ -38,6 +39,7 @@
     <link rel="stylesheet" href="./styles/molecules/div-text-client.css">
     <link rel="stylesheet" href="./styles/molecules/menu-footer.css">
     <link rel="stylesheet" href="./styles/molecules/icons-redes.css">
+    <link rel="stylesheet" href="./styles/molecules/div-menu-nav.css">
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/group-services.css">
     <link rel="stylesheet" href="./styles/organisms/div-home.css">
@@ -50,6 +52,8 @@
     <link rel="stylesheet" href="./styles/organisms/footer.css">
     <link rel="stylesheet" href="./styles/organisms/form-footer.css">
     <link rel="stylesheet" href="./styles/organisms/div-footer.css">
+    <link rel="stylesheet" href="./styles/organisms/nav.css">
+    <link rel="stylesheet" href="./styles/organisms/menu.css">
     <!-- templates -->
     <link rel="stylesheet" href="./styles/templates/header.css">
     
@@ -61,18 +65,26 @@
   <body>
 
     <header>
-      <!--
+      
       <nav>
-        <span class="color-gray edie txt txt-xxl">Edie</span>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#our-works">Our Works</a></li>
-          <li><a href="#clients">Clients</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="menu">
+          <span class="color-gray edie txt txt-xxl">Edie</span>
+          <img src="./assets/list.svg" alt="" id="btn-menu-nav">
+        </div>
+
+        <div class="div-menu-nav">
+
+          <div class="menu-nav" id="menu-nav">
+            <a href="#home" class="txt txt-xl txt-semibold color-gray txt-link" onclick="displayMenuDesktop()">Home</a>
+            <a href="#services" class="txt txt-xl txt-semibold color-gray txt-link" onclick="displayMenuDesktop()">Services</a>
+            <a href="#our-works" class="txt txt-xl txt-semibold color-gray txt-link" onclick="displayMenuDesktop()">Our Works</a>
+            <a href="#clients" class="txt txt-xl txt-semibold color-gray txt-link" onclick="displayMenuDesktop()">Clients</a>
+            <a href="#contact" class="txt txt-xl txt-semibold color-gray txt-link" onclick="displayMenuDesktop()">Contact</a>
+          </div>
+        </div>
+
       </nav>
--->
+
       <div class="div-home" id="home">
         <span class="color-blue txt txt-s txt-semibold txt-height-s">Unhappy with your website?</span>
         <h1 class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">We create beautiful<br>and fast web services</h1>
@@ -170,7 +182,7 @@
           <img src="./assets/person2.png" alt="photo team" class="img-team img2-team">
         </div>
       </div>
-<!--
+
       <div class="div-testimony" id="clients">
         <p class="title color-gray txt txt-xxl txt-semibold txt-height-l color-gray">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
         <div class="div-client">
@@ -182,21 +194,21 @@
           
         </div>
       </div>
--->
+
     </main>
 
     <footer class="background-dark">
 
       <div class="div-footer">
-        <ul class="menu-footer">
-          <li><a href="#home" class="txt txt-xl txt-normal color-gray6 txt-link">Home</a></li>
-          <li><a href="#services" class="txt txt-xl txt-normal color-gray6 txt-link">Services</a></li>
-          <li><a href="#our-works" class="txt txt-xl txt-normal color-gray6 txt-link">Our Works</a></li>
-          <li><a href="#clients" class="txt txt-xl txt-normal color-gray6 txt-link">Clients</a></li>
-          <li><a href="#contact" class="txt txt-xl txt-normal color-gray6 txt-link">Contact</a></li>
-        </ul>
+        <div class="menu-footer">
+          <a href="#home" class="txt txt-xl txt-normal color-gray6 txt-link">Home</a>
+          <a href="#services" class="txt txt-xl txt-normal color-gray6 txt-link">Services</a>
+          <a href="#our-works" class="txt txt-xl txt-normal color-gray6 txt-link">Our Works</a>
+          <a href="#clients" class="txt txt-xl txt-normal color-gray6 txt-link">Clients</a>
+          <a href="#contact" class="txt txt-xl txt-normal color-gray6 txt-link">Contact</a>
+        </div>
 
-        <div class="div-redes">
+        <div class="div-redes" id="contact">
           <span class="color-gray6 edie txt txt-xxxl txt-margin">Edie</span>
 
           <div class="icons-redes">
@@ -222,5 +234,6 @@
 
     </footer>
 
+    <script src="./js/display-menu.js"></script>
   </body>
 </html>
